@@ -1,0 +1,1632 @@
+/* 
+	google font 字体引用：
+	font-family: 'Noto Serif SC', serif;		正楷
+	font-family: 'Noto Sans SC', sans-serif; 	正常	
+	font-family: 'ZCOOL XiaoWei', serif;		cool
+*/
+
+a.for-go {
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	z-index: 5;
+}
+
+.container-fluid-root {
+	width: 100%;
+	padding-right: 0px;
+	padding-left: 0px;
+	margin-right: auto;
+	margin-left: auto;
+}
+
+/* 因为container-fluid的调整，row的宽度也因此受印象，是否调整？padding-right/lift：15px */
+.nav-info-svg {
+	width: 1rem;
+}
+
+.shop-info {
+	width: 100%;
+}
+
+/* 增加：bootstrap 中 间距问题 */
+.m-6 {
+	margin: 4rem !important;
+}
+
+.mt-6,
+.my-6 {
+	margin-top: 4rem !important;
+}
+
+.mr-6,
+.mx-6 {
+	margin-right: 4rem !important;
+}
+
+.mb-6,
+.my-6 {
+	margin-bottom: 4rem !important;
+}
+
+.ml-6,
+.mx-6 {
+	margin-left: 4rem !important;
+}
+
+.m-7 {
+	margin: 5rem !important;
+}
+
+.mt-7,
+.my-7 {
+	margin-top: 5rem !important;
+}
+
+.mr-7,
+.mx-7 {
+	margin-right: 5rem !important;
+}
+
+.mb-7,
+.my-7 {
+	margin-bottom: 5rem !important;
+}
+
+.ml-7,
+.mx-7 {
+	margin-left: 5rem !important;
+}
+
+
+.p-4_5 {
+	padding: 2rem !important;
+}
+
+.pt-4_5,
+.py-4_5 {
+	padding-top: 2rem !important;
+}
+
+.pr-4_5,
+.px-4_5 {
+	padding-right: 2rem !important;
+}
+
+.pb-4_5,
+.py-4_5 {
+	padding-bottom: 2rem !important;
+}
+
+.pl-4_5,
+.px-4_5 {
+	padding-left: 2rem !important;
+}
+
+/* 还没修改 开始 */
+@media (min-width:768px) {
+	.p-md-4_5 {
+		padding: 2rem !important;
+	}
+
+	.pt-md-4_5,
+	.py-md-4_5 {
+		padding-top: 2rem !important;
+	}
+
+	.pr-md-4_5,
+	.px-md-4_5 {
+		padding-right: 2rem !important;
+	}
+
+	.pb-md-4_5,
+	.py-md-4_5 {
+		padding-bottom: 2rem !important;
+	}
+
+	.pl-md-4_5,
+	.px-md-4_5 {
+		padding-left: 2rem !important;
+	}
+}
+
+/* 还没修改 结束 */
+.p-6 {
+	padding: 4rem !important;
+}
+
+.pt-6,
+.py-6 {
+	padding-top: 4rem !important;
+}
+
+.pr-6,
+.px-6 {
+	padding-right: 4rem !important;
+}
+
+.pb-6,
+.py-6 {
+	padding-bottom: 4rem !important;
+}
+
+.pl-6,
+.px-6 {
+	padding-left: 4rem !important;
+}
+
+@media (min-width: 992px) {
+	.col-lg-8_5 {
+		position: relative;
+		width: 100%;
+		padding-right: 15px;
+		padding-left: 15px;
+		-ms-flex: 0 0 72%;
+		flex: 0 0 72%;
+		max-width: 72%;
+	}
+}
+
+@media (min-width: 992px) {
+	.col-lg-3_5 {
+		position: relative;
+		width: 100%;
+		padding-right: 15px;
+		padding-left: 15px;
+		-ms-flex: 0 0 28%;
+		flex: 0 0 28%;
+		max-width: 28%;
+	}
+}
+
+
+/* 结束 */
+/* shop-header */
+.home-shop {
+	position: relative;
+}
+
+.shop-header {
+	background: #fff;
+	padding: 2rem;
+}
+
+@media (min-width:768px) {
+	.shop-header {
+		position: absolute;
+		width: 20rem;
+		min-height: 20rem;
+		padding: 2.5rem;
+		margin-top: 3rem;
+		margin-bottom: -20rem;
+		z-index: 10;
+		background-color: rgba(255, 255, 255, 0.8)
+	}
+}
+
+@media (min-width:992px) {
+	.shop-header {
+		position: absolute;
+		width: 28rem;
+		min-height: 26rem;
+		padding: 4.4rem;
+		margin-top: 2.5rem;
+		margin-bottom: -20rem;
+		z-index: 10;
+		background-color: rgba(255, 255, 255, 255)
+	}
+}
+
+@media (min-width: 768px) {
+	.shop-header-right {
+		right: 30px;
+		margin-left: -15rem;
+	}
+
+}
+
+@media (min-width: 992px) {
+	.shop-header-right {
+		left: 72%;
+		margin-left: -15rem;
+	}
+}
+
+@media (min-width: 768px) {
+	.shop-header-left {
+		left: 30px;
+		margin-right: -15rem;
+	}
+
+}
+
+@media (min-width: 992px) {
+	.shop-header-left {
+		left: 28%;
+		margin-left: -13rem;
+	}
+}
+
+.shop-title {
+	background: url(../images/home-shop-1.svg) no-repeat bottom center;
+}
+
+.shop-border-solid {
+	border: 1px solid black;
+	width: 9.2rem;
+	margin: 0 auto;
+}
+
+.shop-header-title {
+	display: block;
+	padding-top: 1.5rem;
+	padding-bottom: 0px;
+}
+
+.shop-header-info {
+	display: block;
+	margin: 0 auto;
+	line-height: 1.8rem;
+}
+
+/* shop-pic */
+.shop-pic {
+	margin: 0 auto;
+}
+
+.shop-banner {
+	height: 12.5rem;
+	/* 【！！！】高度调整：div的高度限制，用上下的这个调整 */
+	max-width: 100%;
+	overflow: hidden;
+	padding: 0 0 0 0;
+}
+
+@media (min-width: 768px) {
+	.shop-banner {
+		height: 28rem;
+	}
+}
+
+@media (min-width: 992px) {
+	.shop-banner {
+		height: 31rem;
+	}
+}
+
+/* shop-footer */
+.shop-footer {
+	width: 100%;
+	padding-right: 0px;
+	padding-left: 0px;
+	margin-right: auto;
+	margin-left: auto;
+}
+
+.pick-color-1 {
+	background-color:rgb(250, 233, 255) ;
+}
+
+.pick-color-2 {
+	background-color: rgb(150, 104, 48);
+}
+
+@media (min-width: 768px) {
+	.shop-footer {
+		padding-top: 3rem;
+		padding-bottom: 3rem;
+	}
+}
+
+@media (min-width: 992px) {
+	.shop-footer {
+		margin-top: -5rem;
+		padding-top: 5.8rem;
+		padding-bottom: 4rem;
+	}
+}
+
+.shop-footer-info {
+	max-width: 65rem;
+	margin: 0 auto;
+	font-family: 'Noto Sans SC', sans-serif; 
+}
+
+/* 字体 */
+@media (min-width:768px) {
+	.shop-title>h4 {
+		padding-bottom: 0.2rem;
+	}
+
+	.shop-header>h5 {
+		padding-bottom: 0.2rem;
+	}
+
+	.sub-title {
+		font-size: 0.9rem;
+		padding-bottom: 0.6rem;
+	}
+
+	.shop-title>.shop-border-solid {
+		margin-bottom: 0.2rem;
+	}
+}
+
+.gap {
+	margin: 0 auto;
+	padding-top: 0rem;
+}
+
+@media (max-width: 768px) {
+	.gap-sm {
+		padding-top: 2.2rem;
+	}
+}
+
+
+
+@media (min-width: 768px) {
+	.gap {
+		padding-top: 3.5rem;
+	}
+}
+
+@media (min-width: 992px) {
+	.gap {
+		padding-top: 6rem;
+	}
+}
+
+/* home-sell */
+@media (max-width:768px) {
+	.home-sell {
+		padding-top: 2rem;
+		background-color: white;
+	}
+
+	.home-sell .sell-header {
+		margin-bottom: -0.5rem;
+	}
+}
+
+@media (min-width:768px) {
+	.sell-title>h4 {
+		margin-bottom: 0.1rem;
+	}
+
+	.sell-title>.shop-border-solid {
+		margin-bottom: 0.2rem;
+	}
+
+	.home-sell .shop-footer {
+		padding-top: 0rem;
+	}
+}
+
+.sell-title>.shop-border-solid {
+	width: 6rem;
+}
+
+@media (min-width: 992px) {
+	.sell-title>h4 {
+		margin-bottom: 0.2rem;
+	}
+
+	.home-sell .shop-footer {
+		padding-top: 5.8rem;
+	}
+}
+
+/* home-magazine */
+
+.magazine-header {
+	padding-bottom: 0rem;
+}
+
+@media (min-width: 768px) {
+	.magazine-title>h4 {
+		margin-bottom: 0.1rem;
+	}
+
+	.magazine-title>.shop-border-solid {
+		margin-bottom: 0.2rem;
+	}
+}
+
+.magazine-title>.shop-border-solid {
+	width: 6rem;
+}
+
+@media (min-width: 992px) {
+	.magazine-title>h4 {
+		margin-bottom: 0.2rem;
+	}
+}
+
+/* home-card */
+.home-magazine {
+	padding-top: 1rem;
+	background-color: #f4f4f4;
+	padding-bottom: 1rem;
+}
+
+.home-magazine .col-md-3 {
+	padding: 1rem 1.2rem 1rem 1.2rem;
+}
+
+@media (min-width: 768px) {
+	.home-magazine {
+		padding-top: 2.5rem;
+		padding-bottom: 2.5rem;
+	}
+
+	.magazine-header {
+		padding-bottom: 2rem;
+	}
+}
+
+@media (min-width: 992px) {
+	.home-magazine {
+		padding-top: 3rem;
+	}
+}
+
+.home-card {
+	height: 100%;
+}
+
+.home-magazine .card {
+	background-clip: border-box;
+	border: none;
+}
+
+.home-magazine-img {
+	height: 66vw;
+	max-width: 100%;
+	overflow: hidden;
+	padding: 0 0 0 0;
+}
+
+@media (min-width: 768px) {
+	.home-magazine-img {
+		height: 18vw;
+	}
+}
+
+.home-text {
+	padding-top: 1rem;
+	line-height: 1.8rem;
+}
+
+.card-body>small {
+	font-size: 0.5rem;
+}
+
+.card-more a{
+	margin: 0 auto;
+}
+
+.card-more span {
+	display: block;
+    width: 180px;
+    height: 40px;
+    line-height: 40px;
+    color: #fff;
+    text-align: center;
+    font-family: Times New Roman, Times, serif;
+    text-decoration: none;
+    background: #000;
+    margin: 0 auto;
+    font-size: 14px;
+}
+
+@media (min-width: 768px) {
+	.card-more span {
+		line-height: 2rem;
+		font-size: 1.5rem;
+		font-weight: normal;
+		margin: 0.5rem auto 1.5rem auto;
+		padding-bottom: 0.2rem;
+		border-bottom: 1px solid black;
+		background: inherit;
+		color: black;
+		width: auto;
+	}
+}
+
+
+
+
+
+@media (min-width: 768px) {
+	.home-magazine .col-md-3 {
+		padding-left: 0px;
+		padding-right: 0px;
+	}
+
+	.home-magazine .card {
+		margin-left: 1px;
+	}
+}
+
+@media (min-width: 768px) and (max-width: 992px) {
+	.home-magazine .card-body {
+		margin-bottom: 1.6rem;
+	}
+
+	.home-magazine h6 {
+		font-size: 0.9rem;
+		margin-bottom: 0.2rem;
+	}
+
+	.card-more span {
+		margin: 1rem auto 0 auto;
+	}
+}
+
+@media (min-width: 992px) {
+	.card-more span {
+		margin: 2rem auto 0 auto;
+	}
+}
+
+
+
+
+
+/* 模块设计 */
+
+/* 小屏幕下的顶部菜单栏-开始 */
+.nav-small {
+	position: fixed;
+	top: 0px;
+	right: 0;
+	left: 0;
+	height: 50px;
+	text-align: center;
+	border-bottom: #dddddd solid 1px;
+	z-index: 9999;
+	background: #fff;
+}
+
+.nav-small ul,
+.nav-small li {
+	margin: 0;
+	padding: 0;
+	height: 50px;
+	list-style: none;
+}
+
+.nav-small li {
+	float: left;
+	line-height: 50px;
+	width: 20%;
+	box-sizing: border-box;
+	border-left: #dddddd solid 1px;
+}
+
+.nav-small li:nth-child(1) {
+	border-left: none;
+}
+
+
+.nav-small li a {
+	display: block;
+	height: 50px;
+	width: auto;
+	text-align: center;
+	line-height: 1.6em;
+	padding: 28px 0 0 0;
+	margin: 0;
+	font-size: 10px;
+	box-sizing: border-box;
+	color: black;
+	font-family: 'Noto Sans SC', sans-serif;
+}
+
+.nav-small li a.nav-login {
+	background: url(../images/nav-lock.svg) no-repeat 50% 10px;
+}
+
+.nav-small li a.nav-signup {
+	background: url(../images/nav-account.svg) no-repeat 50% 10px;
+}
+
+.nav-small li a.nav-cart {
+	background: url(../images/nav-cart.svg) no-repeat 50% 10px;
+}
+
+.nav-small li a.nav-wish {
+	background: url(../images/nav-wish.svg) no-repeat 50% 10px;
+}
+
+.nav-small li a.nav-comment {
+    background: url(../images/nav-comment.svg) no-repeat 50% 10px;
+}
+
+.nav-small font {
+	margin: 0;
+	padding: 0;
+	border: 0;
+}
+
+
+.b-container {
+	display: block;
+	height: 50px;
+	width: auto;
+	text-align: center;
+	line-height: 1.6em;
+	padding: 0;
+	margin: 0;
+	font-size: 10px;
+	box-sizing: border-box;
+	color: black;
+	font-family: 'Noto Sans SC', sans-serif;
+}
+
+.b-nav li {
+	background: rgba(255, 255, 255, 1);
+	list-style: none;
+	line-height: 1.2rem;
+	padding: 0;
+	margin: 0;
+	text-decoration: none;
+	font-family: 'Roboto', sans-serif;
+	font-weight: 300;
+	font-size: 13px;
+	text-align: left;
+	display: block;
+	border-bottom: #afafaf dotted 1px;
+}
+
+.b-nav .b-link {
+	color: #000;
+	text-decoration: none;
+	padding: 0 20px;
+	height: 40px;
+	display: block;
+	line-height: 40px;
+	transition: all 0.4s ease;
+	font-size: 13px;
+	letter-spacing: 0.05rem;
+	font-weight: 400;
+}
+
+/* 小屏幕下的顶部菜单栏-结束 */
+
+/* 大屏幕下的顶部菜单栏-开始 */
+
+.nav-big {
+	margin: 0;
+	padding: 60px 0 0;
+	position: relative;
+}
+
+.nav-big .nav-big-area {
+	position: absolute;
+	top: 0;
+	right: 0;
+	height: 60px;
+}
+
+.nav-big li {
+	float: left;
+	margin: 0;
+	padding: 0 0 0 35px;
+	height: 60px;
+	line-height: 60px;
+	list-style: none;
+}
+
+.nav-big a {
+	color: #000;
+	text-decoration: none;
+	display: block;
+	height: 60px;
+	line-height: 60px;
+	padding: 0 0 0 26px;
+	margin: 0;
+	font-size: 13px;
+}
+
+
+.nav-big a.nav-wish {
+	width: 60px;
+	height: 60px;
+	background-image: url(../images/nav-big-wish.svg);
+	background-size: 30px 30px;
+	background-repeat: no-repeat;
+	background-position: 50% 50%;
+	background-color: #000;
+}
+
+.nav-big a.nav-login {
+	background: url(../images/nav-lock.svg) no-repeat 0 50%;
+}
+
+.nav-big a.nav-signup {
+	background: url(../images/nav-account.svg) no-repeat 0 50%;
+}
+
+    .nav-big a.nav-comment {
+        background: url(../images/nav-comment.svg) no-repeat 0 50%;
+    }
+
+.nav-big a.nav-cart {
+	background: url(../images/nav-cart.svg) no-repeat 0 50%;
+}
+
+.nav-big font {
+	margin: 0;
+	padding: 0;
+	border: 0;
+}
+
+.nav-logo {
+	position: absolute;
+	left: 30px;
+	top: 12px;
+}
+
+.nav-logo img {
+	width: 160px;
+	height: auto;
+}
+
+/* 大屏幕下的顶部菜单栏-结束 */
+
+
+/* 大屏幕下的副菜单栏 开始 */
+.nav-big-sub {
+	margin-bottom: 40px;
+	position: relative;
+	height: 60px;
+	text-align: center;
+}
+
+@media (min-width:992px) {
+
+	.nav-big-sub {
+		margin-bottom: 80px;
+	}
+}
+
+
+.nav-big-sub ul {
+	list-style-type: none;
+	list-style: none;
+	margin: 0 auto;
+	padding: 0;
+	width: 85%;
+	max-width: 850px;
+}
+
+
+.nav-big-sub li {
+	margin: 0;
+	padding: 0;
+	height: 60px;
+	line-height: 60px;
+}
+
+.nav-big-sub a {
+	color: #000;
+	font-size: 13px;
+	letter-spacing: 0.05rem;
+	padding: 0 24px;
+	font-family: 'Noto Sans SC', sans-serif;
+}
+
+.no-home {
+	margin: 0;
+	padding: 0;
+	position: relative;
+	height: 60px;
+	border-bottom: #dddddd solid 1px;
+	border-top: #dddddd solid 1px;
+}
+
+
+
+/* 大屏幕下的副菜单栏 结束 */
+
+
+
+
+/* footer 开始 */
+footer {
+	width: 100%;
+	max-width: 1000px;
+	margin: 0 auto;
+	padding: 0 0 20px;
+	background: #fff;
+	position: relative;
+	font-family: 'Noto Sans SC', sans-serif;
+}
+
+.footerNav {
+	margin: 0;
+	padding: 0;
+	position: relative;
+	border-top: #ccc dotted 1px;
+}
+
+.footerNav .footer-nav {
+	margin: 0;
+	padding: 0;
+
+
+}
+
+.footerNav .footer-nav li {
+	margin: 0;
+	list-style: none;
+	padding: 0;
+	height: 40px;
+	font-size: 12px;
+	line-height: 40px;
+	border-bottom: #ccc dotted 1px;
+	text-align: left;
+	letter-spacing: 0.02rem;
+}
+
+.footerNav .footer-nav a {
+	padding: 0 20px;
+	height: 40px;
+}
+
+.footerNav .footer-chat li {
+	border-bottom: none;
+}
+
+
+.footerNav li.footer-chat {
+	position: relative;
+	margin: 0;
+	padding: 0;
+	border-bottom: none;
+	text-align: center;
+}
+
+.footerNav .footer-chat ul {
+	position: static;
+	margin: 0;
+	padding: 2px 0;
+	display: inline-block;
+	top: 0;
+	right: 0;
+}
+
+.footerNav .footer-chat li {
+	float: left;
+	margin: 0 10px;
+	padding: 0;
+	width: 22px;
+}
+
+.footerNav .footer-chat a {
+	padding: 0;
+}
+
+.footerNav .footer-chat img {
+	width: 22px;
+}
+
+
+
+@media (min-width:768px) {
+	footer {
+		padding: 30px 30px 50px 30px;
+		box-sizing: border-box;
+	}
+
+	.footerNav {
+		padding: 0 0 16px;
+		border-bottom: #dddddd solid 1px;
+		border-top: none;
+
+	}
+
+	.footerNav .footer-nav li {
+		margin: 0 44px 0 0;
+		border: none;
+	}
+
+	.footerNav .footer-nav a {
+		margin: 0;
+		padding: 0;
+		border: 0;
+	}
+
+	.footerNav li.footer-chat {
+		position: relative;
+		margin: 0;
+		padding: 0;
+	}
+
+	.footerNav .footer-chat ul {
+		position: absolute;
+		margin: 0;
+		padding: 0;
+		top: 0;
+		right: 0;
+	}
+
+	.footerNav .footer-chat li {
+		float: right;
+		margin: 0 0 0 15px;
+	}
+}
+
+.footerNav .footer-chat img {
+	width: 22px;
+}
+
+
+.footerLogo {
+	text-align: center;
+	margin: 20px;
+}
+
+.footerLogo img {
+	width: 105px;
+}
+
+.footerCopyright {
+	font-size: 12px;
+	color: #525252;
+	text-align: center;
+}
+
+.footerCopyright p {
+	margin: 2px 0;
+	padding: 0;
+}
+
+.footerCopyright i {
+	display: inline-block;
+	width: 16px;
+	height: 16px;
+	vertical-align: middle;
+	background: url(../images/footer-copyright.png) no-repeat 0 0;
+	margin-top: -4px;
+}
+
+/* footer 结束 */
+
+/* 文字部分 开始 */
+.thewords {
+	text-align: center;
+	padding: 50px 20px;
+	letter-spacing: 0.08rem;
+	line-height: 2.2em;
+	font-family: 'Noto Serif SC', serif;
+	background: white;
+	margin-top: 400px;
+}
+
+.thewords .w-logo {
+	margin-bottom: 30px;
+}
+
+.thewords img {
+	width: 220px;
+}
+
+.thewords h3 {
+	font-size: 20px;
+	font-family: 'Noto Sans SC', sans-serif;
+	letter-spacing: 0.05rem;
+	margin-bottom: 30px;
+}
+
+.thewords h3 font {
+	padding-left: 0.5rem;
+}
+
+.thewords p {
+	margin-bottom: 30px;
+	font-size: 13px;
+}
+
+.thewords .w-sub {
+	font-weight: bold;
+	font-size: 14px;
+	line-height: 2.2rem;
+}
+
+@media (min-width:768px) {
+	.thewords {
+		padding: 100px 0 90px 0;
+		margin-top: 0;
+	}
+
+	.thewords h3 {
+		font-size: 24px;
+	}
+
+	.thewords img {
+		width: 275px;
+	}
+
+	.thewords .w-logo {
+		margin-bottom: 60px;
+	}
+
+	.thewords p {
+		margin-bottom: 20px;
+		font-size: 14px;
+	}
+
+	.thewords .w-sub {
+		font-size: 15px;
+	}
+}
+
+@media (min-width:992px) {
+	.thewords h3 {
+		font-size: 26px;
+		margin-bottom: 50px;
+		font-size: 16px;
+	}
+
+}
+
+/* 文字部分 结束 */
+
+
+
+/* Dic.css通用模版 字典 开始 */
+/* 【植物图鉴-通用模版-开始】 */
+/* 字体设计 */
+
+.dic_plant {
+	font-size: 18px;
+	font-family: Roboto;
+	font-weight: bold;
+	letter-spacing: 0.6rem;
+	line-height: 2rem;
+}
+
+.dic_enplant {
+	font-size: 12px;
+	font-family: Roboto;
+	letter-spacing: 0.1rem;
+	line-height: 1.2em;
+}
+
+.dic_explant {
+	font-size: 14px;
+}
+
+.dic_info {
+	font-size: 13px;
+	margin: 0 0 16px;
+	line-height: 2rem;
+}
+
+.dic_open {
+	font-size: 13px;
+}
+
+.dic_text {
+	font-size: 13px;
+}
+
+@media (min-width:768px) {
+	.dic_plant {
+		font-size: 34px;
+		margin-bottom: 10px !important;
+		font-weight: normal;
+		letter-spacing: 0.8rem;
+	}
+
+	.dic_enplant {
+		font-size: 15px;
+	}
+
+	.dic_explant {
+		font-size: 16px;
+		font-weight: bold;
+	}
+
+	.dic_open {
+		font-size: 15px;
+	}
+
+	.dic_text {
+		font-size: 14px;
+	}
+}
+
+/* 图片背景 */
+.dic p {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-family: 'Noto Sans SC', sans-serif;
+}
+
+
+.background24 {
+	height: 400px;
+	background: url(../images/dic/background24.png) no-repeat 50% 50%;
+	background-size: cover;
+	position: relative;
+}
+
+@media (min-width:768px) {
+	.background24 {
+		height: 678px;
+		background: url(../images/dic/background24.png) repeat-x center top;
+	}
+}
+
+.plantdic {
+	margin-bottom: 10px;
+}
+
+.dic_title {
+	position: absolute;
+	width: 280px;
+	height: 224px;
+	margin: -112px 0 0 -140px;
+	padding: 40px 20px;
+	text-align: center;
+	top: 50%;
+	left: 50%;
+	background: url(../images/dic/frame.png) no-repeat 50% 50%;
+	background-size: 100%;
+}
+
+@media (min-width:768px) {
+	.dic_title {
+		width: 447px;
+		height: 352px;
+		margin: -170px 0 0 -223.5px;
+		padding: 60px;
+		text-align: center;
+		top: 50%;
+		left: 50%;
+		background: url(../images/dic/frame.png) no-repeat 50% 50%;
+	}
+}
+
+.dic_explant {
+	margin-bottom: 20px;
+}
+
+.dic_open {
+	padding: 35px 0 0;
+	background: url(../images/dic/book.svg) no-repeat top center;
+}
+
+
+@media (min-width:768px) {
+	.plantdic {
+		margin-bottom: 30px;
+	}
+
+	.dic_explant {
+		margin-bottom: 20px;
+	}
+
+}
+
+.common {
+	height: 330px;
+	background-color: #f4f4f4;
+	padding: 40px 0;
+}
+
+.common .background24 {
+	height: 250px;
+	background: url(../images/dic_background.png) repeat-x center top;
+	background-size: auto 105%;
+	margin: 0 auto;
+	position: relative;
+}
+
+
+.common .dic_title_sm {
+	height: 250px;
+	margin: 0 20px;
+	padding: 30px 20px;
+	box-sizing: border-box;
+	background-color: rgba(255, 255, 255, 0.8);
+	text-align: center;
+	vertical-align: middle;
+}
+
+.common .dic_plant {
+	font-size: 30px;
+	font-weight: normal;
+	padding-left: 0.2rem;
+}
+
+.common .dic_explant {
+	width: 150px;
+	margin: 20px auto;
+	border-bottom: #000 solid 2px;
+}
+
+.common .dic_open p {
+	margin: 10px 0;
+	letter-spacing: 0.05rem;
+	font-size: 14px;
+}
+
+@media (min-width:768px) {
+	.common {
+		height: 440px;
+	}
+
+	.common .background24 {
+		height: 360px;
+	}
+
+	.common .dic_title_sm {
+		height: 360px;
+		padding: 70px;
+		max-width: 510px;
+		margin: 0 auto;
+	}
+
+	.common .dic_open p {
+		font-size: 16px;
+		margin-top: 8px;
+		margin-bottom: 30px;
+	}
+
+	p.Abook {
+		font-weight: bold;
+	}
+}
+
+
+/* 【植物图鉴-通用模版-结束】 */
+
+/* Dic.css通用模版 字典 开始 */
+
+
+/* 面包屑 开始 */
+.b-crumbs {
+	margin: 0;
+	padding: 0;
+	height: 28px;
+	background: #2f2f2f;
+}
+
+.b-crumbs ul {
+	margin: 0;
+	padding: 0;
+	display: block;
+	list-style: none;
+}
+
+.b-crumbs ul li {
+	background: #a9a9a9;
+	float: left;
+	height: 28px;
+	line-height: 28px;
+	text-align: center;
+	margin: 0;
+	padding: 0 30px;
+	-moz-transform-origin: 0 100%;
+	-webkit-transform-origin: 0 100%;
+	transform-origin: 0 100%;
+	-moz-transform: skewX(25deg);
+	-webkit-transform: skewX(25deg);
+	transform: skewX(25deg);
+	font-size: 11px;
+	border-left: #2f2f2f solid 1px;
+	max-width: 25%;
+	box-sizing: border-box;
+}
+
+.b-crumbs ul li:last-child {
+	background: #2f2f2f;
+	color: #fff;
+	border-left: none;
+}
+
+.b-crumbs ul a {
+	text-decoration: none;
+	color: #2f2f2f;
+}
+
+.b-crumbs ul a font {
+	-moz-transform: skewX(-25deg);
+    -webkit-transform: skewX(-25deg);
+    transform: skewX(-25deg);
+    display: block;
+    width: 100%;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+	box-sizing: border-box;
+	letter-spacing: 0.05rem;
+}
+
+.b-crumbs ul li:last-child a font {
+	background: #2f2f2f;
+	color: #fff;
+	border-left: none;
+	letter-spacing: 0.05rem;
+}
+
+@media (min-width:992px) {
+	.b-crumbs ul li {
+		font-size: 12px;
+	}
+}
+
+/* 面包屑 结束 */
+
+/* 大标题组件 开始 */
+.form-cell {
+	padding-top: 50px;
+}
+
+@media (min-width:768px) {
+    .form-cell {
+        padding-top: 0;
+    }
+}
+
+.form-cell_title p {
+    text-align: center;
+}
+
+.form-cell h4 {
+    font-family: Georgia, "Times New Roman";
+    letter-spacing: 0.1rem;
+    font-size: 16px;
+}
+
+@media (min-width:768px) {
+    .form-cell h4 {
+        font-size: 26px;
+    }
+}
+
+
+@media (min-width:768px) {
+    .form-cell_title {
+        margin: 2.5rem;
+    }
+}
+
+@media (min-width:1140px) {
+    .form-cell_title {
+        margin: 3.2rem;
+    }
+
+}
+
+.form-cell_header img {
+    width: 200px;
+    height: auto;
+    margin: 0;
+    padding: 2rem 0 2rem 0;
+}
+
+.form-cell_header .shop-border-solid {
+    width: 2rem;
+    margin: 1rem auto 1.5rem auto;
+}
+
+@media (min-width:768px) {
+    .form-cell_header .shop-border-solid {
+        margin: 1rem auto 0 auto;
+    }
+}
+
+/* 大标题组件 结束 */
+
+
+
+
+
+/* 修改首页动态壁纸 手机端 开始 */
+.h-banner-sm {
+	padding-top: 50px;
+	position: fixed;
+	top: 0;
+	right: 0;
+	z-index: -1;
+	max-height: 100vh;
+	overflow: hidden;
+}
+
+.banner-sm-logo {
+	padding: 30px 0;
+	width: 120px;
+	height: auto;
+}
+
+.Home-banner-blank {
+	margin: 0 auto;
+	padding-top: 100vh;
+	opacity: 0;
+	z-index: 0;
+}
+
+@media (min-width:768px) {
+	.Home-banner-blank {
+		display: none;
+	}
+}
+
+.h-banner-sm .h-banner-sm-bg {
+	width: 100%;
+	height: auto;
+}
+
+/* 修改首页动态壁纸 手机端 结束 */
+
+
+/* 修改首页动态壁纸 电脑端 开始 */
+@media (min-width:768px) {
+	.h-banner-lg {
+		margin: 0 auto;
+		padding: 0;
+		width: 100%;
+		position: relative;
+	}
+
+	.h-banner-lg .banner-sm-logo {
+		padding: 0;
+		margin: 20px 0 42px 0;
+	}
+
+
+	.h-banner-lg h2 {
+		line-height: 46px;
+		letter-spacing: 4px;
+		font-size: 18px;
+		right: initial;
+		left: 40px;
+		margin-right: 0;
+		top: 62px;
+		height: 340px;
+
+		z-index: 10;
+		margin: 0;
+		padding: 0;
+		-webkit-writing-mode: vertical-rl;
+		-ms-writing-mode: tb-rl;
+		writing-mode: vertical-rl;
+		position: absolute;
+		text-align: justify;
+		text-justify: inter-ideograph;
+		font-weight: 500;
+		font-family: 'Noto Serif SC', serif;
+		color: #000;
+	}
+
+	.h-banner-lg .h-banner-lgpic {
+		width: 100%;
+		position: relative;
+		height: 348px;
+		top: 0;
+		right: 0;
+	}
+
+}
+
+@media (min-width:992px) {
+	.h-banner-lg {
+		margin-top: 30px;
+		height: 560px;
+	}
+
+	.h-banner-lg .banner-sm-logo {
+		margin-top: 0;
+		width: 165px;
+	}
+
+	.h-banner-lg h2 {
+		line-height: 50px;
+		font-size: 20px;
+		right: 85%;
+		left: 0;
+		margin: 0;
+		padding: 0;
+		margin-right: -130px;
+		top: 100px;
+		height: 440px;
+	}
+
+	.h-banner-lg .h-banner-lgpic {
+		height: 368px;
+		width: 82%;
+		position: absolute;
+		top: 187px;
+		right: 0;
+		overflow: hidden;
+	}
+}
+
+@media (min-width:1200px) {
+
+	.h-banner-lg {
+		height: 635px
+	}
+
+	.h-banner-lg h2 {
+		line-height: 64px;
+		font-size: 25px;
+		right: 82%;
+	}
+
+	.h-banner-lg .h-banner-lgpic {
+		height: 448px;
+	}
+}
+
+/* 修改首页动态壁纸 电脑端 结束 */
+
+
+/* 一些小的修改 开始 */
+.p-white p {
+	color: rgb(249, 249, 249)!important;
+}
+
+.p-stylecool {
+	font-family: 'Noto Sans SC', sans-serif, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue";
+	letter-spacing: 0.02rem;
+}
+
+.p-stylen {
+	font-family: 'Noto Serif SC', serif;
+	letter-spacing: 0.05rem;
+}
+
+
+.p-stylenom {
+	font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+	letter-spacing: 0.04rem;
+
+}
+
+.p-fsize {
+	font-size: 13px;
+} 
+
+.best-sale {
+	font-size: 14px;
+	padding-top: 0;
+	margin-top: 0 !important;
+}
+
+@media (min-width:768px) {
+	.best-sale {
+		font-size: 15px;
+	}
+
+	.p-fsize {
+		font-size: 14px;
+	} 
+	
+}
+
+@media (min-width:992px) {
+	.best-sale {
+		font-size: 14px;
+	}
+
+	.p-fsize {
+		font-size: 13px;
+	} 
+	
+}
+/* 一些小的修改 结束 */
+
+footer .footerCopyright p {
+	font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+	color: #7D7D7D;
+}

@@ -1,0 +1,607 @@
+/* 大标题组件 */
+.form-cell_title p {
+    text-align: center;
+}
+
+.form-cell h4 {
+    font-family: Georgia, "Times New Roman";
+    letter-spacing: 0.1rem;
+    font-size: 16px;
+}
+
+@media (min-width:768px) {
+    .form-cell h4 {
+        font-size: 26px;
+    }
+}
+
+
+@media (min-width:768px) {
+    .form-cell_title {
+        margin: 2.5rem;
+    }
+}
+
+@media (min-width:1140px) {
+    .form-cell_title {
+        margin: 3.2rem;
+    }
+
+}
+
+.form-cell_header img {
+    width: 200px;
+    height: auto;
+    margin: 0;
+    padding: 2rem 0 2rem 0;
+}
+
+.form-cell_header .shop-border-solid {
+    width: 2rem;
+    margin: 1rem auto 1.5rem auto;
+}
+
+@media (min-width:768px) {
+    .form-cell_header .shop-border-solid {
+        margin: 1rem auto 0 auto;
+    }
+}
+
+/* 【植物图鉴-通用模版-开始】 */
+/* 字体设计 */
+
+.dic_plant {
+    font-size: 18px;
+    font-family: Roboto;
+    font-weight: bold;
+    letter-spacing: 0.6rem;
+    line-height: 2rem;
+}
+
+.dic_enplant {
+    font-size: 12px;
+    font-family: Roboto;
+    letter-spacing: 0.1rem;
+    line-height: 1.2em;
+}
+
+.dic_explant {
+    font-size: 14px;
+}
+
+.dic_info {
+    font-size: 13px;
+    margin: 0 0 16px;
+    line-height: 2rem;
+}
+
+.dic_open {
+    font-size: 13px;
+}
+
+.dic_text {
+    font-size: 13px;
+}
+
+@media (min-width:768px) {
+    .dic_plant {
+        font-size: 34px;
+        margin-bottom: 10px !important;
+        font-weight: normal;
+        letter-spacing: 0.8rem;
+    }
+
+    .dic_enplant {
+        font-size: 15px;
+    }
+
+    .dic_explant {
+        font-size: 16px;
+        font-weight: bold;
+    }
+
+    .dic_open {
+        font-size: 15px;
+    }
+
+    .dic_text {
+        font-size: 14px;
+    }
+}
+
+/* 图片背景 */
+.dic p {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-family: 'Noto Sans SC', sans-serif;
+}
+
+
+.background24 {
+    height: 400px;
+    background: url(../images/dic/background24.png) no-repeat 50% 50%;
+    background-size: cover;
+    position: relative;
+}
+
+@media (min-width:768px) {
+    .background24 {
+        height: 678px;
+        background: url(../images/dic/background24.png) repeat-x center top;
+    }
+}
+
+.plantdic {
+    margin-bottom: 10px;
+}
+
+.dic_title {
+    position: absolute;
+    width: 280px;
+    height: 224px;
+    margin: -112px 0 0 -140px;
+    padding: 40px 20px;
+    text-align: center;
+    top: 50%;
+    left: 50%;
+    background: url(../images/dic/frame.png) no-repeat 50% 50%;
+    background-size: 100%;
+}
+
+@media (min-width:768px) {
+    .dic_title {
+        width: 447px;
+        height: 352px;
+        margin: -170px 0 0 -223.5px;
+        padding: 60px;
+        text-align: center;
+        top: 50%;
+        left: 50%;
+        background: url(../images/dic/frame.png) no-repeat 50% 50%;
+    }
+}
+
+.dic_explant {
+    margin-bottom: 20px;
+}
+
+
+
+
+
+.dic_open {
+    padding: 35px 0 0;
+    background: url(../images/dic/book.svg) no-repeat top center;
+}
+
+
+@media (min-width:768px) {
+    .plantdic {
+        margin-bottom: 30px;
+    }
+
+    .dic_explant {
+        margin-bottom: 20px;
+    }
+
+}
+
+
+/* 【植物图鉴-通用模版-结束】 */
+.dic_option {
+    margin: 0;
+}
+
+.dic_option .dic_text {
+    text-align: center;
+    height: 40px;
+    border-top: #ccc dotted 1px;
+    border-bottom: #ccc dotted 1px;
+    border-right: #ccc dotted 1px;
+}
+
+
+
+.dic_option .dic_text:nth-child(1) {
+    border-left: #ccc dotted 1px;
+}
+
+@media (min-width:768px) {
+    .dic_option {
+        max-width: 450px;
+        margin: 0 auto;
+    }
+
+    .dic_option .dic_text {
+        border-top: none;
+        border-bottom: none;
+        border-right: #ccc solid 1px;
+        height: 20px;
+    }
+
+    .dic_option .dic_text:nth-child(1) {
+        border-left: #ccc solid 1px;
+    }
+}
+
+.dic_text p {
+    margin: 10px auto;
+    font-family: 'Noto Serif SC', serif;
+}
+
+@media (min-width:768px) {
+    .dic_text p {
+        margin: 0 auto;
+    }
+}
+
+
+/* 春天详情页部分 */
+
+/* 字体问题 */
+
+.dictionary .dic_plant {
+    margin: 5px 0 !important;
+    font-size: 38px;
+    font-weight: 500;
+}
+
+.dictionary .dic_enplant {
+    font-size: 14px;
+    margin: 10px 0;
+    color: rgb(150, 150, 150);
+    letter-spacing: 0.1rem;
+}
+
+.dictionary .plantdic {
+    margin: 20px 0;
+}
+
+.dictionary .dic_info p {
+    font-size: 16px;
+    font-family: 'Noto Serif SC', serif;
+    letter-spacing: 0.1rem;
+    margin: 0;
+    line-height: 1.4rem;
+}
+
+.dictionary .dic_text {
+    font-family: 'Noto Serif SC', serif;
+    letter-spacing: 0.1rem;
+}
+
+/* 排版问题 */
+.dictionary_words {
+    padding: 5px 20px 5px 20px;
+}
+
+
+.dictionary_group {
+    padding-bottom: 20px;
+    padding-left: 10px;
+    padding-right: 0;
+}
+
+.dictionary .row {
+    margin-left: 0px;
+    margin-right: 0px;
+    padding-left: 10px;
+    padding-right: 20px;
+}
+
+.dictionary img {
+    width: 100%;
+}
+
+.dictionary_info {
+    margin: 0;
+    padding: 10px 0 0 0;
+    font-weight: bold;
+}
+
+@media (min-width:768px) {
+    .dictionary_words {
+        padding: 0 25px 10px 25px;
+        margin: 0 auto;
+        max-width: 1200px;
+    }
+
+    .dictionary .row {
+        margin: 0 auto;
+        max-width: 1200px;
+        padding-left: 9px;
+        padding-right: 25px;
+    }
+
+    .dictionary_group {
+        padding-left: 16px;
+        padding-right: 0px;
+        margin-bottom: 22px;
+    }
+
+    .dictionary_info {
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+}
+
+
+/* introduce 字典的详情介绍页 */
+
+/* 格式部分 */
+.dic_introduce {
+    padding: 0 5px;
+    margin: 0 auto;
+    max-width: 1000px;
+}
+
+
+.dic_introduce .dic_pic {
+    width: 100%;
+    margin-bottom: 20px;
+    padding: 0;
+}
+
+@media (min-width:768px) {
+    .dic_introduce .col-lg-7 {
+        width: 500px;
+        padding: 0;
+        margin: 0 auto 40px;
+    }
+
+    .dic_introduce .col-lg-5 {
+        padding: 0 30px;
+    }
+}
+
+@media (min-width:992px) {
+    .dic_introduce .col-lg-7 {
+        width: 100%;
+        padding-left: 25px;
+        margin: 0 auto 40px;
+    }
+
+    .dic_introduce .col-lg-5 {
+        padding: 0 25px;
+    }
+}
+
+.dic_introduce h4 {
+    font-family: 'Noto Serif SC', serif;
+    margin: 0 0 20px;
+    padding: 0 0 10px;
+    border-bottom: #ccc dotted 1px;
+    font-size: 20px;
+    font-weight: bold;
+    letter-spacing: 0.2rem;
+}
+
+.dic_introducetext_info {
+    margin-bottom: 26px;
+    padding: 0;
+
+}
+
+.dic_introducetext dl {
+    margin-bottom: 10px;
+    padding: 0 0 10px 70px;
+    font-size: 13px;
+    border-bottom: #ccc dotted 1px;
+    position: relative;
+}
+
+.dic_introducetext dt {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 24px;
+    padding: 0;
+    background: #008563;
+    color: #fff;
+    line-height: 24px;
+    font-size: 13px;
+    width: 60px;
+    text-align: center;
+}
+
+font {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+.dic_introducetext dd {
+    margin: 0;
+    padding: 0;
+    line-height: 1.8em;
+    letter-spacing: 0.05rem;
+}
+
+@media (min-width:768px) {
+    .dic_introduce h4 {
+        font-size: 22px;
+        margin-bottom: 26px;
+    }
+
+    .dic_introduce .dic_introducetext_info {
+        padding-bottom: 18px;
+        border-bottom: #ccc dotted 1px;
+    }
+
+    .dic_introducetext dl {
+        font-size: 14px;
+        margin-bottom: 2px;
+        padding: 0 0 8px 70px;
+        border-bottom: none;
+    }
+}
+
+@media (min-width:992px) {}
+
+
+.poetry {
+    font-size: 18px;
+    letter-spacing: 0.1rem;
+    font-family: 'Noto Serif SC', serif;
+    line-height: 1.8rem;
+}
+
+.blockquote-footer {
+    padding-left: 80px;
+}
+
+.poetry_footer {
+    color: #7D7D7D;
+    font-size: 14px;
+    margin-top: -10px;
+}
+
+
+/* 产品详情页 */
+.pro_sale {
+    padding: 0px;
+}
+
+.pro_pay {
+    display: inline-block;
+    margin-bottom: 10px;
+}
+
+.pro_pay dt {
+    font-size: 12px;
+    margin: 0;
+    padding: 0;
+    display: inline;
+    letter-spacing: 0.05rem;
+}
+
+.pro_pay dd {
+    display: inline;
+
+}
+
+.pro_price {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.pro_price .price_small {
+    font-size: 12px;
+
+}
+
+@media (min-width:768px) {
+    .pro_price {
+        font-size: 24px;
+    }
+}
+
+@media (min-width:992px) {
+
+    .pro_pay dt,
+    .pro_price .price_small {
+        font-size: 14px;
+    }
+
+    .pro_price {
+        font-size: 26px;
+    }
+
+}
+
+.cartBox {
+    margin-left: 0;
+    margin-right: 0;
+}
+
+.cartBox .cartAdd,
+.cartBox .collectionAdd {
+    padding: 0;
+}
+
+.cartAdd {
+    margin-top: 0.2rem;
+    margin-bottom: 0.2rem;
+}
+
+.cartCount {
+    padding: 0;
+    text-align: left;
+    color: #fff;
+    box-sizing: border-box;
+    border-right: #ccc solid 1px;
+    width: 100px;
+    overflow: hidden;
+    height: 40px;
+    line-height: 40px;
+    font-size: 14px;
+    background-color: black;
+    float: left;
+}
+
+.cartCount label {
+    padding: 0 0 0 10px;
+    margin: 0;
+    border: 0;
+}
+
+.cartCount select {
+    background-color: #000;
+    color: #fff;
+    border: none;
+    height: 40px;
+}
+
+.cartBox .cartIn {
+    margin: 0 0 0 100px;
+    text-align: center;
+    border: 0;
+    font-size: 14px;
+    background: #000;
+    height: 40px;
+    line-height: 40px;
+    color: #fff;
+    cursor: pointer;
+    letter-spacing: 0.05rem;
+}
+
+.cartBox .cartIn a {
+    height: 40px;
+    line-height: 40px;
+    width: 100%;
+}
+
+.cartBox .cartIn font {
+    padding: 0 0 0 24px;
+    background: url(../images/cart.svg) no-repeat 0 50%;
+}
+
+.cartBox .collectionAdd {
+    text-align: center;
+    border: 0;
+    font-size: 14px;
+    background: #000;
+    height: 40px;
+    line-height: 40px;
+    color: #fff;
+    cursor: pointer;
+    letter-spacing: 0.05rem;
+    margin-top: 0.2rem;
+    margin-bottom: 0.2rem;
+    padding: 0 10px;
+}
+
+@media (min-width:768px) and (max-width:992px) {
+    .cartBox .collectionAdd {
+        border-left: #ccc solid 1px;
+    }
+}
+
+
+.cartBox .collectionAdd font {
+    padding: 0 0 0 24px;
+    background: url(../images/collectionAdd.svg) no-repeat 0 50%;
+}
+
+

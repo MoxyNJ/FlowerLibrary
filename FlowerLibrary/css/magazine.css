@@ -1,0 +1,446 @@
+/* 根-设置 */
+/* Magazine-cell 不能调整导致的妥协 */
+
+.magazine-section {
+    padding-bottom: 2rem;
+}
+
+
+/*大标题 MAGAZINE*/
+.magazine-cell h4 {
+    font-family: Georgia, "Times New Roman";
+    letter-spacing: 0.1rem;
+    font-size: 16px;
+}
+
+@media (min-width:768px) {
+    .magazine-cell h4 {
+        font-size: 26px;
+    }
+}
+
+
+/* 标题 */
+.magazine-cell .card-title {
+    /* 字体设置，区分为sm以下、sm以上，用px设置 */
+    font-size: 13px;
+    font-weight: bold;
+    line-height: 1.5rem;
+    margin: 0px;
+    padding: 0px;
+    border: 0px;
+    letter-spacing: 0.05rem;
+    /* 略微扩张字体间距，「不知道兼容性如何」*/
+}
+
+@media (min-width: 992px) {
+    .magazine-cell .card-title {
+        font-size: 14px;
+    }
+}
+
+@media (min-width: 1200px) {
+    .magazine-cell .card-title {
+        font-size: 16px;
+    }
+}
+
+/* 缩略图-正文 */
+.magazine-cell .card-text {
+
+    font-size: 12px;
+    letter-spacing: 0.05rem;
+}
+
+@media (min-width: 992px) {
+    .magazine-cell .card-text {
+        font-size: 13px;
+    }
+}
+
+/* 日期 */
+.magazine-cell .text-muted {
+    font-size: 12px;
+    margin: 0 0 12px 0;
+    border-bottom: 1rem;
+    line-height: 1rem;
+    letter-spacing: 0;
+}
+
+@media (min-width: 768px) {
+    .magazine-cell .text-muted {
+        margin: 0px;
+        line-height: 1.2rem;
+    }
+}
+
+@media (min-width: 992px) {
+    .magazine-cell .text-muted {
+        margin: 0 0 12px 0;
+        line-height: 1.2rem;
+    }
+}
+
+@media (min-width: 1200px) {
+    .magazine-cell .text-muted {
+        margin: 0 0 12px 0;
+        line-height: 1.6rem;
+    }
+}
+
+/* magazine Logo & 大标题 */
+@media (min-width:768px) {
+    .magazine-cell_title {
+        margin: 2.5rem;
+    }
+}
+
+@media (min-width:1140px) {
+    .magazine-cell_title {
+        margin: 3.2rem;
+    }
+
+}
+
+.magazine-cell_header img {
+    width: 200px;
+    height: auto;
+    margin: 0;
+    padding: 2rem 0 2rem 0;
+}
+
+@media (max-width:767px) {
+    .magazine-cell_header {
+        padding-top: 50px;
+        }
+}
+
+.magazine-cell_header .shop-border-solid {
+    width: 2rem;
+    margin: 1rem auto 1.5rem auto;
+}
+
+@media (min-width:768px) {
+    .magazine-cell_header .shop-border-solid {
+        margin: 1rem auto 0 auto;
+    }
+}
+
+/* magazine卡片部分设置，间距，颜色等 */
+
+.magazine-cell .row {
+    background-color: rgb(244, 244, 244);
+    padding-top: 1.8rem;
+    background-clip: border-box;
+}
+
+@media (min-width:768px) {
+    .magazine-cell .row {
+        padding-top: 3.5rem;
+    }
+}
+
+.magazine-cell .col-md-3 {
+    padding: 0rem 1.2rem 1.4rem 1.2rem;
+}
+
+@media (min-width:768px) {
+    .magazine-cell .col-md-3 {
+        padding: 0rem 0rem 3.5rem 0rem;
+        border-left: 1px solid rgb(244, 244, 244);
+    }
+}
+
+.magazine-cell .card {
+    background-color: white;
+    background-clip: content-box;
+    /*背景边框的裁剪边距*/
+}
+
+.magazine-cell .card-body {
+    padding: 0px 20px;
+    margin: 20px 0;
+    min-height: auto;
+}
+
+@media (min-width:992px) {
+    .magazine-cell .card-body {
+        padding: 0px 20px;
+        margin: 30px 0;
+        min-height: 80px;
+    }
+}
+
+@media (min-width:1200px) {
+    .magazine-cell .card-body {
+        padding: 0rem 2.2rem;
+        margin: 2rem 0 3rem 0;
+        min-height: 80px;
+    }
+}
+
+
+/* Magazine-info 详情页的css补充 */
+
+/* 正文-详情页 */
+
+.magazine-text p {
+    font-size: 14px;
+    letter-spacing: 0.05rem;
+    line-height: 1.8rem;
+    margin-block-start: 1.2em;
+    margin-block-end: 1.2em;
+}
+
+.magazine-text img {
+    max-width: 100%;
+    max-height: 80vh;
+    margin: 0 auto;
+    display: table-cell;
+    text-align: center !important;
+}
+
+@media (min-width: 992px) {
+    .magazine-text {
+        font-size: 16px;
+    }
+}
+
+
+
+
+
+
+/* 正文主体 */
+.magazine-container {
+    max-width: 810px;
+    margin: 0 auto;
+    padding: 0 30px;
+
+}
+
+@media (min-width:768px) {
+    .magazine-container {
+        padding: 0 60px;
+
+    }
+}
+
+.magazine-container h4 {
+    padding-top: 1rem;
+}
+
+
+.magazine-text {
+    padding: 2rem 0;
+}
+
+
+@media (min-width: 992px) {
+    .magazine-special {
+        padding-top: 3.8rem !important;
+    }
+}
+
+@media (min-width: 992px) {
+    .magazine-sell {
+        padding-bottom: 2rem;
+    }
+}
+
+@media (min-width: 768px) {
+    .magazine-sell .shop-footer {
+        padding-bottom: 0rem;
+    }
+}
+
+/* 评论列表 开始 */
+.m-comment {}
+
+.m-comment h4 {
+    letter-spacing: 0.05rem;
+    font-size: 14px;
+    color: #666;
+    line-height: 0.7rem;
+    padding-bottom: 0.7rem;
+    border-bottom: 1px solid #CCC;
+    margin-bottom: 17px;
+    font-weight: bold;
+}
+
+.m-comment ul {
+    list-style: none;
+    padding: 0;
+}
+
+.m-comment ul li {
+    margin: 0 0 20px 0;
+    letter-spacing: 0.05rem;
+    border-bottom: #CCC dotted 1px;
+}
+
+.m-comment li h5 {
+    font-size: 14px;
+    font-weight: bold;
+    color: #666;
+}
+
+.m-comment .dot {
+    cursor: auto;
+    font-weight: bold;
+    color: #d8d8d8;
+    margin: 0;
+}
+
+.m-comment li em {
+    font-size: 12px;
+    font-weight: normal;
+    font-style: normal;
+    color: #999;
+}
+
+.m-comment p {
+    font-size: 13px;
+    margin-bottom: 6px;
+}
+
+.m-comment li:nth-last-child(1) {
+    border-bottom:none;
+    margin: 0 auto;
+    display: block;
+    height: 40px;
+    line-height: 40px;
+    border: none;
+    text-decoration: none;
+    color: #fff;
+    font-weight: normal;
+    text-align: center;
+    font-size: 13px;
+    background: #D7D7D7;
+    width:80%;
+}
+
+.showMorehandle {
+    cursor: pointer;
+    margin: 0 auto;
+    display: block;
+    height: 40px;
+    line-height: 40px;
+    border: none;
+    text-decoration: none;
+    color: #fff;
+    font-weight: normal;
+    text-align: center;
+    font-size: 13px;
+    background: #000;
+    width: 80%;
+}
+
+@media (min-width:768px) {
+    .showMorehandle, .m-comment li:nth-last-child(1) {
+        width:250px;
+    }
+}
+
+@media (min-width:992px) {
+
+}
+
+@media (min-width:1200px) {
+
+}
+
+/* 评论列表 结束 */
+
+
+/* 留言 开始 */
+
+.comment-input {
+    font-size: 0.8rem;
+    line-height: 1.5rem;
+    color: #333;
+    letter-spacing: 0.05rem;
+    position:relative;
+    height:100%;
+    margin:2rem auto;
+}
+
+.form-input {
+    background: #F5F5F5;
+    border-radius: 2px;
+    padding: 0 20px;
+    color: #999;
+    font-size: 14px;
+    line-height: 16px;
+}
+
+.comment-input textarea {
+    width: 100%;
+    height: 5rem;
+    border: none;
+    resize: none;
+    background: #F5F5F5;
+    padding: 14px 0;
+    font-family: inherit;
+    font-size: inherit;
+    outline: none;
+}
+
+.comment-input button {
+    -webkit-appearance: none;
+    background: #666;
+    height: 35px;
+    width: 80px;
+    color: #fff;
+    border: none;
+    border-radius: 0;
+    margin: 0 auto;
+    display: block;
+    cursor: pointer;
+    border-radius: 0;
+    font-size: 100%;
+    font-family: inherit;
+    letter-spacing:0.05rem;
+    margin: 10px 0 ;
+    position:absolute;
+    right:0;
+}
+
+.comment-input h4 {
+    font-size: 16px;
+    font-weight: bold;
+    color: #666;
+    font-family:inherit;
+    letter-spacing:0.02rem;
+}
+
+.comment-input .dot {
+    cursor: auto;
+    font-weight: bold;
+    color: #d8d8d8;
+    margin: 0;
+}
+
+.comment-input em {
+    font-size: 12px;
+    font-weight: normal;
+    font-style: normal;
+    color: #999;
+}
+
+.comment-input h5 {
+    letter-spacing: 0.05rem;
+    font-size: 14px;
+    color: #666;
+    line-height: 0.7rem;
+    padding-bottom: 0.7rem;
+    border-bottom: 1px solid #CCC;
+    margin-bottom: 17px;
+    font-weight: bold;
+}
+
+.C-Bmagazine {
+    display: none;
+}
+/* 留言 结束 */
+
