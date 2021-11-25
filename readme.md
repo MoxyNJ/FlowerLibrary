@@ -12,7 +12,11 @@
 
 ### 移动手机端：
 
-<img src="readme/d542f32f-0706-41de-83b5-ac71ad4cc202.png" alt="d542f32f-0706-41de-83b5-ac71ad4cc202" style="zoom: 30%;" />        <img src="readme/4fa00e29-7658-4c1e-a1b8-1594a54fef7b.png" alt="4fa00e29-7658-4c1e-a1b8-1594a54fef7b" style="zoom:30%;" />       <img src="readme/2d6231ac-48cd-4b0d-93de-90b10aff56ea.png" alt="2d6231ac-48cd-4b0d-93de-90b10aff56ea" style="zoom:30%;" />
+<img src="readme/d542f32f-0706-41de-83b5-ac71ad4cc202.png" alt="d542f32f-0706-41de-83b5-ac71ad4cc202" width="33%">
+<img src="readme/4fa00e29-7658-4c1e-a1b8-1594a54fef7b.png" alt="4fa00e29-7658-4c1e-a1b8-1594a54fef7b" width="33%">
+<img src="readme/2d6231ac-48cd-4b0d-93de-90b10aff56ea.png" alt="2d6231ac-48cd-4b0d-93de-90b10aff56ea" width="33%">
+
+
 
 
 
