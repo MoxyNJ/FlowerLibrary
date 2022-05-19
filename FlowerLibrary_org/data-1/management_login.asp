@@ -267,11 +267,11 @@ end if
             </div>
             <div class="footerCopyright">
                 <p>
-                    <font>© 2019 Flower Library, Inc. 保留所有权利</font>
-                    <font>京ICP证030173号</font>
+                    <font>© 2022 Flower Library, Inc. 保留所有权利</font>
+                    <font>该网站仅为学习制作，不具有实际用途</font>
                 </p>
                 <p>
-                    <font><i></i>京公网安备11000002000001号</font>
+                    <font><i></i>晋ICP备2021017941号</font>
                 </p>
             </div>
         </footer>
